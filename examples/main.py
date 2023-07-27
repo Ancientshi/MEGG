@@ -27,7 +27,7 @@ from config import *
 from deepctr_torch.inputs import (DenseFeat, SparseFeat, VarLenSparseFeat,
                                   get_feature_names)
 from deepctr_torch.models import WDL, NFM, DCN
-from preprocess_movielens import *
+from Data.workspace.MEGG.examples.preprocess import *
 from sklearn.metrics import mean_squared_error,roc_auc_score
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder,MinMaxScaler
